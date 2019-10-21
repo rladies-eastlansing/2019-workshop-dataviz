@@ -10,8 +10,8 @@ Associated repo: [2019-workshop-dataviz](https://github.com/rladies-eastlansing/
 ## Workshop material
 - [Presentation & R scripts](https://github.com/rladies-eastlansing/2019-workshop-dataviz) <br>
 _Right click to clone/download the repo. —> open the `.Rproj`._
-
 - _Corresponding folder on [Google Drive](https://drive.google.com/open?id=1xiryo4Nxny-4bBH6Hfh9RP3z1c8BuqMQ)._
+- **All meetup presentations can be accessed [here](https://github.com/rladies-eastlansing/meetup-presentations)**!
 
 ## Presenters
 - [Veronica Frans](http://twitter.com/VFFrans)
