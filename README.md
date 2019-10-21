@@ -1,6 +1,6 @@
 # Workshop: Data Wrangling and Visualization
 Workshop on Intro to Data Wrangling &amp; Visualization w/ R <br>
-*Oct 21, 2019 | [@RLadiesEastLansing](https://github.com/rladies-eastlansing/)_* <br>
+*Oct 21, 2019 | [@RLadiesEastLansing](https://github.com/rladies-eastlansing/)* <br>
 Associated repo: [2019-workshop-dataviz](https://github.com/rladies-eastlansing/2019-workshop-dataviz)
 
 ## Setup & R-help
