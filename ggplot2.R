@@ -1,12 +1,12 @@
 # Install packages
-install.packages(c("tidyverse, "cowplot", "plotly")) # for analysis/viz
+install.packages(c("tidyverse", "cowplot", "plotly")) # for analysis/viz
 install.packages(c("gapminder", "nycflights13"))     # for datasets
 
 # Load libraries
 library(tidyverse)
 library(gapminder)
 library(nycflights13)
-library(cowplot)
+library(cowplot) # use theme_set(theme_cowplot()) for v1.0.0+
 library(plotly)
 
 # Load gapminder data
