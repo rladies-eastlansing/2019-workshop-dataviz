@@ -1,31 +1,33 @@
+# Install packages
+install.packages(c("tidyverse", "cowplot", "plotly")) # for analysis/viz
+install.packages(c("gapminder", "nycflights13"))     # for datasets
+
 # Load libraries
-library(plotly)
 library(tidyverse)
 library(gapminder)
 library(nycflights13)
-
+library(cowplot) # use theme_set(theme_cowplot()) for v1.0.0+
+library(plotly)
 
 # Load gapminder data
 data <- gapminder
 
+# Basic components of ggplot2:
+# (1) data, (2) aes, (3) geom
+data %>%
+  ggplot() # an empty plot!
 
-# ggplot
-data %>% 
-  ggplot()
+data %>%
+  ggplot(aes(x = gdpPercap, y = lifeExp)) # pick your variables
 
-
-data %>% 
-  ggplot(aes(x = gdpPercap, y = lifeExp))
-
-# Basic scatter plot
 data %>%
   ggplot(aes(x = gdpPercap, y = lifeExp)) +
-  geom_point()
+  geom_point() # basic scatterplot
 
 # Adjust the alpha to see overlap
 data %>%
   ggplot(aes(x = gdpPercap, y = lifeExp)) +
-  geom_point(alpha = 1/10)
+  geom_point(alpha = 1/10) # alpha for transparency
 
 # Flip axes easily with 'coord_flip()'
 data %>%
